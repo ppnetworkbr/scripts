@@ -68,10 +68,10 @@ fi
 echo "Por favor, insira suas credenciais do Docker:"
 read -p 'Usuário: ' uservar
 read -sp 'Senha: ' passvar
-docker login login ghcr.io --username $uservar --password $passvar
+docker login ghcr.io --username $uservar --password $passvar
 
 # Baixar a imagem
-docker ghcr.io/ppnetworkbr/speedtest-ookla:main
+docker pull ghcr.io/ppnetworkbr/speedtest-ookla:main
 
 # Solicitar o domínio e o email
 read -p 'Domínio: ' domain
