@@ -67,4 +67,5 @@ read -s github_token
 cd /tmp
 # Clonar o repositório usando a URL HTTPS e autenticar com o token de acesso pessoal
 git clone "https://$github_token@github.com/ppnetworkbr/DNS-RECURSIVO-PPBLOCK.git"
-sh DNS-RECURSIVO-PPBLOCK/install.sh
+cd DNS-RECURSIVO-PPBLOCK/
+sh install.sh
