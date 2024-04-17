@@ -59,11 +59,12 @@ then
 fi
 
 # Fazer login no Docker
-echo "Por favor, insira suas credenciais do Docker:"
-read -p 'Usuário: ' uservar
-read -sp 'Senha: ' passvar
-docker login ghcr.io --username $uservar --password $passvar
+git config --global url."https://github.com/".insteadOf git@github.com:
+# Solicitar ao usuário que insira o token de acesso pessoal
+echo "Digite seu token de acesso pessoal do GitHub:"
+read -s github_token
 
 cd /tmp
-git clone git@github.com:ppnetworkbr/DNS-RECURSIVO-PPBLOCK.git
+# Clonar o repositório usando a URL HTTPS e autenticar com o token de acesso pessoal
+git clone "https://$github_token@github.com/ppnetworkbr/DNS-RECURSIVO-PPBLOCK.git"
 sh DNS-RECURSIVO-PPBLOCK/install.sh
