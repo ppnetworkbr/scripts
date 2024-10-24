@@ -2140,7 +2140,7 @@ zone "betifyme.com" IN {type master;file "/etc/bind/db.local";allow-update{none;
 zone "betinagold.com" IN {type master;file "/etc/bind/db.local";allow-update{none;};};
 zone "betinbet.net" IN {type master;file "/etc/bind/db.local";allow-update{none;};};
 zone "betkwiff.com" IN {type master;file "/etc/bind/db.local";allow-update{none;};};
-zone "betl 8k.app" IN {type master;file "/etc/bind/db.local";allow-update{none;};};
+zone "betl8k.app" IN {type master;file "/etc/bind/db.local";allow-update{none;};};
 zone "betlua.com" IN {type master;file "/etc/bind/db.local";allow-update{none;};};
 zone "betmais.com" IN {type master;file "/etc/bind/db.local";allow-update{none;};};
 zone "betmais.vip" IN {type master;file "/etc/bind/db.local";allow-update{none;};};
