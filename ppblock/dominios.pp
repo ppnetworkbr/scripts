@@ -2258,7 +2258,6 @@ zone "boylesports.com" IN {type master;file "/etc/bind/db.local";allow-update{no
 zone "br.1xbet.com" IN {type master;file "/etc/bind/db.local";allow-update{none;};};
 zone "br.888casino.com" IN {type master;file "/etc/bind/db.local";allow-update{none;};};
 zone "br.betcris.com" IN {type master;file "/etc/bind/db.local";allow-update{none;};};
-zone "br.betcris.com" IN {type master;file "/etc/bind/db.local";allow-update{none;};};
 zone "br.magicred.com" IN {type master;file "/etc/bind/db.local";allow-update{none;};};
 zone "br.melbet.combr" IN {type master;file "/etc/bind/db.local";allow-update{none;};};
 zone "br.mrplay.com" IN {type master;file "/etc/bind/db.local";allow-update{none;};};
